@@ -1,0 +1,64 @@
+{
+  "api_base_url": "https://api.hubstaff.com/",
+  "issuer_url": "https://account.hubstaff.com",
+  "issuer": {
+    "claim_types_supported": [
+      "normal"
+    ],
+    "claims_parameter_supported": false,
+    "grant_types_supported": [
+      "authorization_code",
+      "refresh_token"
+    ],
+    "request_parameter_supported": false,
+    "request_uri_parameter_supported": true,
+    "require_request_uri_registration": false,
+    "response_modes_supported": [
+      "query",
+      "fragment"
+    ],
+    "token_endpoint_auth_methods_supported": [
+      "client_secret_basic",
+      "client_secret_post"
+    ],
+    "issuer": "https://account.hubstaff.com",
+    "authorization_endpoint": "https://account.hubstaff.com/authorizations/new",
+    "jwks_uri": "https://account.hubstaff.com/jwks.json",
+    "response_types_supported": [
+      "code"
+    ],
+    "subject_types_supported": [
+      "public",
+      "pairwise"
+    ],
+    "id_token_signing_alg_values_supported": [
+      "RS256"
+    ],
+    "token_endpoint": "https://account.hubstaff.com/access_tokens",
+    "userinfo_endpoint": "https://account.hubstaff.com/user_info",
+    "scopes_supported": [
+      "openid",
+      "profile",
+      "email",
+      "hubstaff:read",
+      "hubstaff:write",
+      "tasks:read",
+      "tasks:write"
+    ],
+    "request_object_signing_alg_values_supported": [
+      "HS256",
+      "HS384",
+      "HS512"
+    ],
+    "claims_supported": [
+      "sub",
+      "iss",
+      "name",
+      "email"
+    ]
+  },
+  "issuer_expires_at": 1720651538.72,
+  "token": {
+    "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImRlZmF1bHQifQ.eyJqdGkiOiJRMEdCa3FLSkxRPT0iLCJpc3MiOiJodHRwczovL2FjY291bnQuaHVic3RhZmYuY29tIiwiZXhwIjoxNzIwMzAxODIxLCJpYXQiOjE3MjAwNDI2MjEsInNjb3BlIjoiaHVic3RhZmY6d3JpdGUgaHVic3RhZmY6cmVhZCIsImF1ZCI6InN3YWdnZXJVSSIsInN1YiI6IlBqS0ZxUjJYcG1kbTJ5aXhUNWlfWHBTWEtyS2EzbEdnMDN5UExmeEJ3dzYxLTR4bTE4T2NEN1ZkNzU4TWpxc1phX3FNTWgwTDZydjQ0dlRFc2R0ZjVBPT0ifQ.ShKsuaVwNmpoS2gaixTaae2JxIPgeshk-FgmeTCKu4TKSe4rRYOah6HQJovVCkcz1TtYCvIww4uRNRUqxWs7KwOTrSW3jR4U9YAe7lKIE5iq-ZjIw9R1r4J67ZsUAykmo8jG6mOsbJ6p1KTy8BQk9CKBsMyCijx1Z8OPySLiqCqmX7sk4B8Lsccrz6B0OkCCzRKrkILgIMxZEq4KjOzM213n67_GmD-1lFJTwI7WTopc7OI-NDNiOw-6Ak8dwKqFJ0Xn5StEUo5GM6MglD9Mt5yeFiTCcInQqS5Pu1rqL4R8KBVobZAl1jGpDMmNKMGo4nwvjor2G1kXYv8EmiGx7w"
+  }
+}

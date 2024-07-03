@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@app-masters/hubstaff-node-client": "^2.0.4",
+    "debug": "^4.3.5",
+    "fs": "^0.0.1-security",
+    "jose": "^5.6.3",
+    "openid-client": "^5.6.5",
+    "yargs": "^17.7.2"
+  }
+}
